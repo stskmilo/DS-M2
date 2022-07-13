@@ -1,0 +1,4 @@
+USE henry;
+CREATE USER 'pruebas'@'localhost' IDENTIFIED BY 'pruebas123';
+GRANT ALL ON *.* TO 'pruebas'@'localhost';
+SHOW TABLES
